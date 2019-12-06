@@ -1,0 +1,141 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mindbuzz.com</title>
+        <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 110%;
+            color: #474747;
+            background-color:#f1f1f1;
+        }
+        header{
+            background-color: #fff;
+            padding: 2%;
+        }
+        img{
+            width: 100%;
+            padding: 1%;
+        }
+        h1{
+            font-size: 50px;
+            text-align: center;
+        }
+        h2,h4{
+            text-align: center;
+        }
+        nav{
+            background-color: #474747;
+            overflow: hidden;
+        }
+        nav a{
+            color: #fff;
+            text-decoration: none;
+            letter-spacing: 2px;
+            padding: 14px 16px;           
+            display: block;
+            float: left;
+        }
+
+        nav a:hover{
+            background-color: #ddd;
+            color: #000;
+        }
+
+        footer{
+            background-color: #474747;
+            color:#fff;
+            padding: 2%;
+            margin-top: 2%;
+
+        }
+        footer a{
+            color:aqua;
+            text-decoration: none;
+        }a
+
+        #left{
+            float: left;
+            width: 68%;
+            background-color: white;
+            padding: 2%;
+            margin-top: 2%;
+            }
+
+        #right{
+            float: right;
+            width: 30%;
+            background-color: white;
+            padding: 1%;
+            margin-top: 2%;
+            /* margin-left: 2%; */
+            }
+
+      #row:after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* media queries */
+       @media(max-width: 768px){
+            #right,#left{
+                width:100%;
+                padding: 0;
+            }
+        }
+
+      @media(max-width: 576px){
+            nav a{
+                float: none;
+                text-align: center;
+            }
+        }
+
+</style>
+    </head>
+    <body>
+        <!-- header section -->
+        <header>
+            <h1>MIND BUZZ</h1>
+        </header>
+        <!-- navigation menu -->
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Project</a>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+        </nav>
+        <!-- two coloumn row -->
+        <div id="row">
+            <div id="left">
+                <h2>My Website</h2>
+                <h4>You can see my projects in the projects tab</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit culpa nemo doloribus alias, suscipit tempore molestias esse iste quod pariatur modi quisquam, cum optio vel exercitationem possimus eius, iure aperiam?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur odio necessitatibus eaque qui. Laboriosam sint aspernatur enim, eaque veritatis perspiciatis tempore, deserunt consectetur doloremque quaerat temporibus illo dolorum, quas rerum?</p>
+            
+            <img src="city.jpg" alt="main">
+    </div>
+            <div id="right">
+                <h2>About Me</h2>
+                <img src="brown.jpg" alt="about">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum ipsum optio a repellat, odio illum possimus aliquid inventore aperiam, molestias impedit quam ab maxime quis reiciendis adipisci ad deleniti veniam.</p>
+            </div>
+        </div>
+        <!-- footer section -->
+        <footer>
+            <h2>Contact Me</h2>
+            <h4><a href="mailto:basuargsamurai99@protonmail.com">basuargsamurai99@protonmail.com</a></h4>
+            <h4>800-888-8888</h4>
+            <h4>100 street road, My City, My State, 760002</h4>
+            <p style="color: #ddd; text-align: center;">&copy;  Copyright, MIND BUZZ </p> 
+        </footer>
+
+    </body>
+</html>
